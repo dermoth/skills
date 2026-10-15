@@ -8,6 +8,11 @@ description: "Records the user's preferences, rules and workflows as local skill
 The skills repository lives at `~/DEV/skills` (git, branch `main`) and is
 symlinked to `~/.config/agents/skills` so Amp discovers it globally.
 
+`global-AGENTS.md` is symlinked to `~/.config/amp/AGENTS.md`, which Amp
+always loads. It lists each skill with its trigger so skills are loaded
+proactively; add, update or remove its entry whenever a skill is created,
+renamed, re-scoped or deleted.
+
 ## Layout
 
 - One skill directory per topic (`writing-commits/`, `formatting-code/`, ...).
