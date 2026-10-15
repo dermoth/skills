@@ -1,6 +1,6 @@
 ---
 name: formatting-code
-description: "The user's code formatting and style standards per language, and how to handle code that deviates from them. Use before writing or editing code in any language, and when deciding whether to reformat existing code."
+description: "The user's code formatting and style standards per language, and how to handle code that deviates from them. Use before writing or editing code in any language or Markdown documents, and when deciding whether to reformat existing code."
 ---
 
 # Formatting code
@@ -37,3 +37,4 @@ One file per language under `reference/`; list each here.
 
 - [JavaScript](reference/javascript.md)
 - [HTML, XML, CSS, JSON](reference/html.md)
+- [Markdown](reference/markdown.md)

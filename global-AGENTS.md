@@ -9,5 +9,5 @@ waiting to be asked:
   it in the skills repo, commit, and always mention the update in chat.
 - `writing-commits`: before staging, committing, or planning commits in any
   git repository.
-- `formatting-code`: before writing or editing code in any language, and when
-  deciding whether to reformat existing code.
+- `formatting-code`: before writing or editing code in any language or
+  Markdown documents, and when deciding whether to reformat existing code.
