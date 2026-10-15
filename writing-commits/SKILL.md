@@ -21,3 +21,13 @@ description: "The user's rules for git commits: message content, commit granular
   and tested on their own (each commit should build/pass).
 * Reformatting is always its own commit, separate from functional changes
   (see the `formatting-code` skill).
+
+## What not to commit
+
+* Never commit or stage plan documents (plans, proposals, evaluations);
+  leave them untracked in the working tree unless the user asks otherwise.
+* Respect files the user marks as not to be committed (e.g. a `BUGS.md`
+  saying so).
+* Stage explicit paths, or use `git commit -a` for tracked files; don't
+  `git add` a directory or use `-A` when untracked files exist, as it sweeps
+  them in.
