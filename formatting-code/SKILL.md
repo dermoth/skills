@@ -19,8 +19,8 @@ over time.
 
 ## Code that deviates from the standard
 
-- Reformat first, as a separate commit, before making functional changes.
-- If the repo is internally consistent but differs from the documented
+* Reformat first, as a separate commit, before making functional changes.
+* If the repo is internally consistent but differs from the documented
   standard in `reference/`, ask the user whether it should be reformatted
   before doing so.
 
@@ -35,6 +35,6 @@ below overrides this rule.
 
 One file per language under `reference/`; list each here.
 
-- [JavaScript](reference/javascript.md)
-- [HTML, XML, CSS, JSON](reference/html.md)
-- [Markdown](reference/markdown.md)
+* [JavaScript](reference/javascript.md)
+* [HTML, XML, CSS, JSON](reference/html.md)
+* [Markdown](reference/markdown.md)

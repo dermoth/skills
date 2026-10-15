@@ -15,12 +15,12 @@ renamed, re-scoped or deleted.
 
 ## Layout
 
-- One skill directory per topic (`writing-commits/`, `formatting-code/`, ...).
+* One skill directory per topic (`writing-commits/`, `formatting-code/`, ...).
   Directory name == frontmatter `name`, gerund form, lowercase-hyphenated.
-- `SKILL.md` holds the core rules (keep it short, well under 500 lines).
-- Sub-topics that are only needed sometimes go in `reference/<subtopic>.md`
+* `SKILL.md` holds the core rules (keep it short, well under 500 lines).
+* Sub-topics that are only needed sometimes go in `reference/<subtopic>.md`
   and are linked from `SKILL.md` (e.g. one file per language).
-- The `description` must say what the skill covers AND when to use it; it is
+* The `description` must say what the skill covers AND when to use it; it is
   the only part always in context, so make the triggers specific.
 
 ## Workflow
