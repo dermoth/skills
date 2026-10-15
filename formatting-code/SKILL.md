@@ -28,8 +28,8 @@ over time.
 
 For most languages (C, Perl, shell, JavaScript, Go, ...) indent with tabs and
 align with spaces, so code stays aligned regardless of tab width. Notable
-exceptions: HTML/XML (and CSS/JSON) and Python use spaces. A language file
-below overrides this rule.
+exceptions that use spaces: HTML/XML, CSS, pretty-printed JSON, YAML and
+Python. A language file below overrides this rule.
 
 ## Language standards
 
