@@ -31,3 +31,9 @@ description: "The user's rules for git commits: message content, commit granular
 * Stage explicit paths, or use `git commit -a` for tracked files; don't
   `git add` a directory or use `-A` when untracked files exist, as it sweeps
   them in.
+
+## Pushing
+
+* The user pulls and pushes themselves; don't push.
+* Run `git fetch` before reporting what is pushed or still local, since the
+  user may have pushed (possibly rebased) commits in the meantime.
