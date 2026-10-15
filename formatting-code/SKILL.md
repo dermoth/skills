@@ -24,7 +24,16 @@ over time.
   standard in `reference/`, ask the user whether it should be reformatted
   before doing so.
 
+## General rule: tabs for indent, spaces for alignment
+
+For most languages (C, Perl, shell, JavaScript, Go, ...) indent with tabs and
+align with spaces, so code stays aligned regardless of tab width. Notable
+exceptions: HTML/XML (and CSS/JSON) and Python use spaces. A language file
+below overrides this rule.
+
 ## Language standards
 
-None defined yet. Add one file per language, e.g. `reference/python.md`,
-and list it here.
+One file per language under `reference/`; list each here.
+
+- [JavaScript](reference/javascript.md)
+- [HTML, XML, CSS, JSON](reference/html.md)
