@@ -31,6 +31,13 @@ align with spaces, so code stays aligned regardless of tab width. Notable
 exceptions that use spaces: HTML/XML, CSS, pretty-printed JSON, YAML and
 Python. A language file below overrides this rule.
 
+## Line length
+
+There is no 80-column limit: code lines up to 100-120 columns are fine.
+Never wrap or restructure code only to make lines shorter; wrap past ~120
+columns, or where it clearly reads better. Markdown has its own wrapping rule
+(see `reference/markdown.md`).
+
 ## Language standards
 
 One file per language under `reference/`; list each here.

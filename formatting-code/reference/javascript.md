@@ -9,6 +9,5 @@ Prettier: it collapses deliberate column alignment):
 * Spaces around binary operators and after keywords:
   `for (let i = 0; i < n; i++)`, `switch (x) {`.
 * Trailing commas in multi-line object/array literals.
-* 80-column lines.
 * Brace-less single-statement `if`/`for`/`while` bodies are fine.
 * Keep deliberate column alignment (lookup tables, trailing comments).
