@@ -11,3 +11,9 @@ waiting to be asked:
   git repository.
 * `formatting-code`: before writing or editing code in any language or
   Markdown documents, and when deciding whether to reformat existing code.
+
+## Local-only skills
+
+Private skills that must not be published live outside this repo, in
+`~/.agents/skills/` (a separate local git repo, never pushed). Amp loads them
+like the skills above; follow them the same way.

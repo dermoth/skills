@@ -23,6 +23,14 @@ renamed, re-scoped or deleted.
 * The `description` must say what the skill covers AND when to use it; it is
   the only part always in context, so make the triggers specific.
 
+## Private rules
+
+Rules the user wants kept private (personal sites, names, details) go in a
+local-only skill under `~/.agents/skills/` (its own git repo, no remote),
+never in this repo, its commit messages or `global-AGENTS.md`. When such a
+rule must apply to every task, state it in the skill's `description`, which
+is always in context.
+
 ## Workflow
 
 1. When the user gives input that is a reusable preference, rule or workflow
