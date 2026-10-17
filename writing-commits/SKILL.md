@@ -1,6 +1,6 @@
 ---
 name: writing-commits
-description: "The user's rules for git commits: message content, commit granularity, and splitting complex work into reviewable commits. Use whenever committing, staging, or planning changes in any git repository."
+description: "The user's rules for git commits: message content, commit granularity, and splitting complex work into reviewable commits. Use whenever committing, staging, or planning changes in any git repository, or creating one."
 ---
 
 # Writing commits
@@ -37,3 +37,8 @@ description: "The user's rules for git commits: message content, commit granular
 * The user pulls and pushes themselves; don't push.
 * Run `git fetch` before reporting what is pushed or still local, since the
   user may have pushed (possibly rebased) commits in the meantime.
+
+## New repositories
+
+* Use git's default branch name, `master` (plain `git init`, no `-b main`):
+  the user's git aliases assume it.

@@ -5,7 +5,7 @@ description: "Records the user's preferences, rules and workflows as local skill
 
 # Managing local skills
 
-The skills repository lives at `~/DEV/skills` (git, branch `main`) and is
+The skills repository lives at `~/DEV/skills` (git, branch `master`) and is
 symlinked to `~/.config/agents/skills` so Amp discovers it globally.
 
 `global-AGENTS.md` is symlinked to `~/.config/amp/AGENTS.md`, which Amp
