@@ -12,8 +12,7 @@ waiting to be asked:
 * `formatting-code`: before writing or editing code in any language or
   Markdown documents, and when deciding whether to reformat existing code.
 
-## Local-only skills
+## Local-only guidance
 
-Private skills that must not be published live outside this repo, in
-`~/.agents/skills/` (a separate local git repo, never pushed). Amp loads them
-like the skills above; follow them the same way.
+Private rules live in `~/.config/AGENTS.md`, outside this repo and never
+published. Amp always loads it alongside this file.

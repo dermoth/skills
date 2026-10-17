@@ -25,11 +25,10 @@ renamed, re-scoped or deleted.
 
 ## Private rules
 
-Rules the user wants kept private (personal sites, names, details) go in a
-local-only skill under `~/.agents/skills/` (its own git repo, no remote),
-never in this repo, its commit messages or `global-AGENTS.md`. When such a
-rule must apply to every task, state it in the skill's `description`, which
-is always in context.
+Rules the user wants kept private (personal sites, names, details) go in
+`~/.config/AGENTS.md`: outside this repo, not version controlled, and always
+loaded by Amp in full. Never put them in this repo, its commit messages or
+`global-AGENTS.md`.
 
 ## Workflow
 
